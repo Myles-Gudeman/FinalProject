@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">MP6</string>
+    <string name="play">Play</string>
+    <string name="scores">Scores</string>
+    <string name="leaderboard">LeaderBoard</string>
+    <string name="higher">Higher</string>
+    <string name="lower">Lower</string>
+    <string name="valueofinvisible">ValueOfInvisible</string>
+    <string name="right_or_wrong">Right or Wrong</string>
+    <string name="current_score">Current Score :</string>
+    <string name="invisible_value">Invisible Value</string>
+    <string name="todo">TODO</string>
+    <string name="logo_of_the_game">Logo of the game</string>
+    <string name="main_menu">main menu</string>
 </resources>
