@@ -1,3 +1,4 @@
+/*
 package com.example.andrew.mp6;
 
 public class HiLo {
@@ -47,3 +48,4 @@ public class HiLo {
         return name;
     }
 }
+*/
