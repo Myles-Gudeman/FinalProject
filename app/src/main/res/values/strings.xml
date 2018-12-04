@@ -12,4 +12,6 @@
     <string name="todo">TODO</string>
     <string name="logo_of_the_game">Logo of the game</string>
     <string name="main_menu">main menu</string>
+    <string name="gray_bar_on_top">Gray Bar On top</string>
+    <string name="value">value</string>
 </resources>

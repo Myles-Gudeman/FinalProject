@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground">
-
 
 
     <Button
@@ -19,8 +17,8 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:layout_marginBottom="165dp"
-        android:text="@string/higher"
         android:background="@drawable/my_button_bg"
+        android:text="@string/higher"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/Lower"
@@ -55,8 +53,8 @@
         android:layout_marginEnd="280dp"
         android:layout_marginRight="280dp"
         android:layout_marginBottom="15dp"
-        android:text="@string/main_menu"
         android:background="@drawable/my_button_bg2"
+        android:text="@string/main_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,14 +65,23 @@
         android:id="@+id/RightWrong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="141dp"
-        android:layout_marginLeft="141dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="151dp"
-        android:layout_marginRight="151dp"
+        android:layout_marginStart="510dp"
+        android:layout_marginLeft="510dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
         android:text="@string/right_or_wrong"
+        android:textColor="	#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/InvisibleValue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/GrayBar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/GrayBar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -82,15 +89,18 @@
         android:id="@+id/CurrentScore"
         android:layout_width="wrap_content"
         android:layout_height="15dp"
-        android:layout_marginStart="162dp"
-        android:layout_marginLeft="162dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginRight="128dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
         android:layout_marginBottom="12dp"
+        android:gravity="center"
         android:text="@string/current_score"
+        android:textColor="#000000"
+        android:textSize="13.5sp"
         app:layout_constraintBottom_toTopOf="@+id/Higher"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -99,12 +109,27 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="162dp"
         android:layout_marginLeft="162dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginRight="133dp"
-        android:layout_marginBottom="83dp"
-        android:text="@string/invisible_value"
+        android:layout_marginEnd="170dp"
+        android:layout_marginRight="170dp"
+        android:layout_marginBottom="55dp"
+        android:gravity="center"
+        android:text="@string/value"
+        android:textColor="#000000"
+        android:textSize="60sp"
         app:layout_constraintBottom_toTopOf="@+id/CurrentScore"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/GrayBar"
+        android:layout_width="433dp"
+        android:layout_height="581dp"
+        android:layout_marginBottom="200dp"
+        android:alpha=".75"
+        android:contentDescription="@string/gray_bar_on_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/Gray_Rectangle_Tiny" />
 
 </android.support.constraint.ConstraintLayout>
