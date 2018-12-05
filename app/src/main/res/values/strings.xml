@@ -1,11 +1,7 @@
 <resources>
     <string name="app_name">MP6</string>
-    <string name="play">Play</string>
     <string name="scores">Scores</string>
     <string name="leaderboard">LeaderBoard</string>
-    <string name="higher">Higher</string>
-    <string name="lower">Lower</string>
-    <string name="valueofinvisible">ValueOfInvisible</string>
     <string name="right_or_wrong">Right or Wrong</string>
     <string name="current_score">Current Score :</string>
     <string name="invisible_value">Invisible Value</string>
@@ -14,4 +10,13 @@
     <string name="main_menu">main menu</string>
     <string name="gray_bar_on_top">Gray Bar On top</string>
     <string name="value">value</string>
+    <string name="score_0">Score: 0</string>
+    <string name="main_menu2">MAIN MENU</string>
+    <string name="lower">LOWER</string>
+    <string name="play">PLAY</string>
+    <string name="higher">HIGHER</string>
+    <string name="description">description</string>
+    <string name="guesses_between_1_100">Guesses between 1-100</string>
+    <string name="_2">2</string>
+    <string name="start">Start</string>
 </resources>
