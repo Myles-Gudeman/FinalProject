@@ -81,6 +81,7 @@ public class MainActivity2 extends AppCompatActivity {
                     start.setVisibility(View.VISIBLE);
                     lower.setVisibility(View.INVISIBLE);
                     higher.setVisibility(View.INVISIBLE);
+                    saveScore(score);
                 }
             }
         });
